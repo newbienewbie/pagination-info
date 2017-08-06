@@ -1,10 +1,12 @@
 {
   "name": "pagination-info",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "calculate pagination info ",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "babel":"babel lib -d dist ",
+    "prepublish": "npm run babel"
   },
   "keywords": [
     "pagination"
@@ -16,7 +18,9 @@
   },
   "license": "ISC",
   "devDependencies": {
-    "mocha": "^3.4.2"
+    "mocha": "^3.4.2",
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.18.0"
   },
   "dependencies": {
   },

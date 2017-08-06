@@ -1,5 +1,5 @@
 const assert =require('assert');
-const calculatePaginationInfo =require('../index.js');
+const {calculatePaginationInfo} =require('../dist/index.js');
 
 
 describe("测试 calculate-pagination-info.js" ,function(){

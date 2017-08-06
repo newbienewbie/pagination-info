@@ -3,7 +3,7 @@
  * 用于计算页码信息的帮助函数
  */
 function calculatePaginationInfo(totalRecords=10,pageSize=10,currentPage=1,semiBandWidth=5){
-    if(totalPages==0){
+    if(totalRecords==0){
         return {
             totalRecords:0, totalPages:0, current:1, pageSize, semiBandWidth, 
             firstPage:0, lastPage:0, previous:0, next:0, firstDigit:0, lastDigit:0, 

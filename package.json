@@ -1,6 +1,6 @@
 {
   "name": "pagination-info",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "calculate pagination info ",
   "main": "index.js",
   "scripts": {
@@ -15,9 +15,10 @@
     "url": "https://github.com/newbienewbie/pagination-info"
   },
   "license": "ISC",
-  "devDependencies": {},
-  "dependencies": {
+  "devDependencies": {
     "mocha": "^3.4.2"
+  },
+  "dependencies": {
   },
   "peerDependencies": {}
 }

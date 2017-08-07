@@ -35,7 +35,7 @@ export function calculatePaginationInfo(totalRecords=10,pageSize=10,currentPage=
         array.push(page);
     }
     let shouldDisply=true;
-    if(array.length==0){
+    if(array.length<2){
         shouldDisply=false;
     }
 

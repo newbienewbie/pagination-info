@@ -7,7 +7,7 @@ export function calculatePaginationInfo(totalRecords=10,pageSize=10,currentPage=
         return {
             totalRecords:0, totalPages:0, current:1, pageSize, semiBandWidth, 
             firstPage:0, lastPage:0, previous:0, next:0, firstDigit:0, lastDigit:0, 
-            arraySize:0, array:[], shouldDisply:false,
+            arraySize:0, array:[], shouldDisplay:false,
         };
     }
 
@@ -34,9 +34,9 @@ export function calculatePaginationInfo(totalRecords=10,pageSize=10,currentPage=
         const page=i+firstDigit ;
         array.push(page);
     }
-    let shouldDisply=true;
+    let shouldDisplay=true;
     if(array.length<2){
-        shouldDisply=false;
+        shouldDisplay=false;
     }
 
     return {
@@ -53,7 +53,7 @@ export function calculatePaginationInfo(totalRecords=10,pageSize=10,currentPage=
         lastDigit:lastDigit,
         arraySize,
         array,
-        shouldDisply,
+        shouldDisplay,
     };
 };
 

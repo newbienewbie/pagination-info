@@ -21,7 +21,7 @@ return a object:
     firstDigit,
     lastDigit,
     arraySize, 
-    array,     // array of page number : [firstDigit,LastDigit]
-    shouldDisply,   // should dispaly pagination ( when the length of array is greater than zero )
+    array,          // array of page number : [firstDigit,LastDigit]
+    shouldDisply,   // should dispaly pagination ( when the length of array is less than 2 )
 }
 ```
